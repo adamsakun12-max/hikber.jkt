@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Open Trip Hiking & Camping Jakarta. HIKBER.JKT menyediakan trip Gunung Prau, Gede Pangrango, dan camping pantai dengan harga terjangkau dan aman." />
+  <meta name="keywords" content="open trip jakarta, hiking jakarta, open trip gunung, hikber jkt, trip hiking murah, camping jakarta" />
+  <meta name="author" content="HIKBER.JKT" />
+  <title>Hiking BERGEMBIRA | HIKBER.JKT</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #1e7f5c, #2fa4a9);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    nav {
+      background-color: #155e4a;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .section-title h2 {
+      margin: 0;
+      font-size: 28px;
+      color: #1e7f5c;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #2fa4a9;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #1e7f5c;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background-color: #155e4a;
+    }
+    footer {
+      background-color: #155e4a;
+      color: #fff;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 40px;
+    }
+    footer p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>HIKBER.JKT | HIKING BERGEMBIRA</h1>
+    <p>Jelajah Alam • Hiking • Camping • Petualangan Seru</p>
+  </header>
+
+  <nav role="navigation">
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#trip">Paket Trip</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="tentang" role="region" aria-label="Tentang Kami">
+    <div class="section-title">
+      <h2>Tentang HIKBER.JKT</h2>
+    </div>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+      HIKBER.JKT adalah komunitas open trip berbasis Jakarta yang berfokus pada kegiatan hiking, camping, dan eksplorasi alam Indonesia. 
+      Kami hadir untuk kamu yang ingin menikmati alam dengan aman, seru, dan penuh kebersamaan.
+    </p>
+  </section>
+
+  <section id="trip" role="region" aria-label="Paket Open Trip">
+    <div class="section-title">
+      <h2>Paket Open Trip</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Gunung Prau</h3>
+        <p>Sunrise terbaik dengan jalur ramah pemula. Cocok untuk first hike.</p>
+        <p><strong>Durasi:</strong> 2 Hari 1 Malam</p>
+        <a href="#kontak" class="btn">Daftar Sekarang</a>
+      </div>
+      <div class="card">
+        <h3>Gunung Gede Pangrango</h3>
+        <p>Eksplorasi hutan tropis dan alun-alun surya kencana.</p>
+        <p><strong>Durasi:</strong> 2 Hari 1 Malam</p>
+        <a href="#kontak" class="btn">Daftar Sekarang</a>
+      </div>
+      <div class="card">
+        <h3>Camping Pantai</h3>
+        <p>Camping santai dengan view laut dan sunset yang menawan.</p>
+        <p><strong>Durasi:</strong> 1 Hari 1 Malam</p>
+        <a href="#kontak" class="btn">Daftar Sekarang</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeri" role="region" aria-label="Galeri Kegiatan">
+    <div class="section-title">
+      <h2>Galeri Kegiatan</h2>
+    </div>
+    <p style="text-align:center;">(Tambahkan foto-foto kegiatan hiking dan camping di sini)</p>
+  </section>
+
+  <section id="kontak" role="region" aria-label="Kontak dan Pendaftaran">
+    <div class="section-title">
+      <h2>Kontak & Pendaftaran</h2>
+    </div>
+
+    <div style="max-width:600px; margin:auto; background:#fff; padding:30px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.08);">
+      <form onsubmit="return submitForm()">
+        <input type="hidden" id="adminWA" value="628xxxxxxxxxx">
+        <label>Nama Lengkap</label><br>
+        <input type="text" id="nama" placeholder="Masukkan nama lengkap" required style="width:100%; padding:10px; margin:8px 0 15px;">
+
+        <label>No. WhatsApp</label><br>
+        <input type="tel" id="wa" placeholder="08xxxxxxxxxx" required style="width:100%; padding:10px; margin:8px 0 15px;">
+
+        <label>Email</label><br>
+        <input type="email" placeholder="email@example.com" style="width:100%; padding:10px; margin:8px 0 15px;">
+
+        <label>Pilih Paket Trip</label><br>
+        <select id="trip" required style="width:100%; padding:10px; margin:8px 0 15px;">
+          <option value="">-- Pilih Trip --</option>
+          <option>Gunung Prau</option>
+          <option>Gunung Gede Pangrango</option>
+          <option>Camping Pantai</option>
+        </select>
+
+        <label>Catatan Tambahan</label><br>
+        <textarea id="catatan" rows="4" placeholder="Contoh: ikut sendiri / dengan teman" style="width:100%; padding:10px; margin:8px 0 20px;"></textarea>
+
+        <button type="submit" class="btn" style="width:100%;">Daftar Sekarang</button>
+      </form>
+
+      <p style="text-align:center; margin-top:20px; font-size:14px;">
+        Atau hubungi kami langsung melalui WhatsApp
+      </p>
+      <div style="text-align:center;">
+        <a href="https://wa.me/6285811097520" class="btn">Chat WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HIKBER.JKT</p>
+    <p>Open Trip & Adventure Community</p>
+  </footer>
+
+  <script>
+    function submitForm() {
+      const nama = document.getElementById('nama').value;
+      const wa = document.getElementById('wa').value;
+      const trip = document.getElementById('trip').value;
+      const catatan = document.getElementById('catatan').value;
+      const admin = document.getElementById('adminWA').value;
+
+      const pesan = `Halo admin HIKBER.JKT,%0A%0ASaya ingin mendaftar open trip dengan data berikut:%0A%0ANama: ${nama}%0ANo WA: ${wa}%0APaket Trip: ${trip}%0ACatatan: ${catatan}`;
+
+      alert('Pendaftaran berhasil! Anda akan diarahkan ke WhatsApp admin.');
+      window.location.href = `https://wa.me/6285811097520${admin}?text=${pesan}`;
+      return false;
+    }
+  </script>
+</body>
+</html>
